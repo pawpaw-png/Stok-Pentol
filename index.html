@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hitung Pentol</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Background -->
+<div class="background"></div>
+<div class="overlay"></div>
+
+<div class="container">
+
+    <!-- Header -->
+    <header class="header">
+
+        <h1>Stok Pentol</h1>
+
+        <p id="tanggal">
+            Memuat tanggal...
+        </p>
+
+    </header>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+
+        <div class="summary-card">
+
+            <span>Total Sisa</span>
+
+            <h2 id="totalSisa">
+                566
+            </h2>
+
+        </div>
+
+        <div class="summary-card">
+
+            <span>Nilai Stok</span>
+
+            <h2 id="nilaiStok">
+                Rp406.000
+            </h2>
+
+        </div>
+
+        <div class="summary-card">
+
+            <span>Total Terjual</span>
+
+            <h2 id="totalTerjual">
+                0
+            </h2>
+
+        </div>
+
+        <div class="summary-card">
+
+            <span>Progress</span>
+
+            <h2 id="persentase">
+                100%
+            </h2>
+
+        </div>
+
+    </section>
+
+    <!-- Grid Pentol -->
+
+    <section
+        id="stokGrid"
+        class="stokGrid">
+
+        <!-- Dibuat otomatis oleh script.js -->
+
+    </section>
+
+    <!-- Reset -->
+
+    <section class="bottom">
+
+        <button
+            id="resetButton"
+            class="resetButton">
+
+            🔄 Reset Hari Ini
+
+        </button>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
